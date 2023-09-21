@@ -14,9 +14,9 @@ Funktionen:
 ### Documentation
 
 1. [[Inform]](Inform.md)
-2. [[Plan]]
-3. [[Decide]]
-4. [[Realization]]
-5. [[Control]]
-6. [[Assess]]
+2. [[Plan]](Plan.md)
+3. [[Decide]](Decide.md)
+4. [[Realization]](Realise.md)
+5. [[Control]](Control.md)
+6. [[Assess]](Assess.md)
 
