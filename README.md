@@ -13,7 +13,7 @@ Funktionen:
 - Schere, Stein, Papier
 ### Documentation
 
-1. [[Inform]]
+1. [[Inform]](Inform.md)
 2. [[Plan]]
 3. [[Decide]]
 4. [[Realization]]
