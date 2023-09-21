@@ -1,7 +1,7 @@
 # Taschenrechner
 
 ### Beschreibung
-Wir machen einen Taschenrechener. 
+Wir machen einen Taschenrechener.
 Funktionen:
 - Summieren
 - Subtrahieren
