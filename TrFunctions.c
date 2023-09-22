@@ -4,12 +4,30 @@
 
 int PaperStoneSissors(int input)
 {
-    char playerguess[] = "blank";
+    int playerguess = 0;
     srand(time(NULL));
     int randomnumber = (rand() % (3 - 1 + 1)) + 1;
 
     printf("%d", randomnumber);
-    scanf("%s", &playerguess);
+    scanf("%d", &playerguess);
+
+    switch (randomnumber)
+    {
+    case randomnumber == 1:
+        printf("Test");
+        break;
+
+    case randomnumber == 2:
+        printf("Test2");
+        break;
+
+    case randomnumber == 3:
+        printf("Test3");
+        break;
+
+    default:
+        break;
+    }
 
 
 }
