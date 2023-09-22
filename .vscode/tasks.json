@@ -7,11 +7,7 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-<<<<<<< Updated upstream
                 "${fileDirname}\\*.c",
-=======
-                "${file}",
->>>>>>> Stashed changes
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
