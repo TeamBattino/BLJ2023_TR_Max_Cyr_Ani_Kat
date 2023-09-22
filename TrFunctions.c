@@ -43,8 +43,8 @@ int multiplication(int num1, int num2)
     printf("%d\n", multiplication);
 }
 
-int Expo(int num1, int x)
+int Expo(int num1, int num2)
 {
-    int Expo = num1 ^ x;
+    int Expo = num1 ^ num2;
     printf("%d\n", Expo);
 }
