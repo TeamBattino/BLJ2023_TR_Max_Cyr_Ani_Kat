@@ -4,13 +4,21 @@
 int main()
 {
 
-    PaperStoneSissors();
+    char menuselection;
+    printf("\e[36m ▄████▄   ▄▄▄       ██▓     ▄████▄   █    ██  ██▓     ▄▄▄      ▄▄▄█████▓ ▒█████   ██▀███  \n▒██▀ ▀█  ▒████▄    ▓██▒    ▒██▀ ▀█   ██  ▓██▒▓██▒    ▒████▄    ▓  ██▒ ▓▒▒██▒  ██▒▓██ ▒ ██▒\n▒▓█    ▄ ▒██  ▀█▄  ▒██░    ▒▓█    ▄ ▓██  ▒██░▒██░    ▒██  ▀█▄  ▒ ▓██░ ▒░▒██░  ██▒▓██ ░▄█ ▒\n▒▓▓▄ ▄██▒░██▄▄▄▄██ ▒██░    ▒▓▓▄ ▄██▒▓▓█  ░██░▒██░    ░██▄▄▄▄██ ░ ▓██▓ ░ ▒██   ██░▒██▀▀█▄  \n▒ ▓███▀ ░ ▓█   ▓██▒░██████▒▒ ▓███▀ ░▒▒█████▓ ░██████▒ ▓█   ▓██▒  ▒██▒ ░ ░ ████▓▒░░██▓ ▒██▒\n░ ░▒ ▒  ░ ▒▒   ▓▒█░░ ▒░▓  ░░ ░▒ ▒  ░░▒▓▒ ▒ ▒ ░ ▒░▓  ░ ▒▒   ▓▒█░  ▒ ░░   ░ ▒░▒░▒░ ░ ▒▓ ░▒▓░\n  ░  ▒     ▒   ▒▒ ░░ ░ ▒  ░  ░  ▒   ░░▒░ ░ ░ ░ ░ ▒  ░  ▒   ▒▒ ░    ░      ░ ▒ ▒░   ░▒ ░ ▒░\n░          ░   ▒     ░ ░   ░         ░░░ ░ ░   ░ ░     ░   ▒     ░      ░ ░ ░ ▒    ░░   ░ \n░ ░            ░  ░    ░  ░░ ░         ░         ░  ░      ░  ░             ░ ░     ░     \n░                          ░                                                              \n\e[0m");
+    printf("What do you want?\n<c> Calculator\n<r> Rock Paper Sissors\n");
+    scanf(" %c", &menuselection);
+
+    if (menuselection == 'r')
+    {
+        PaperStoneSissors();
+    }
 
     int num1 = 0;
     int num2 = 0;
     char operation = '\0';
     int option = 0;
-    printf("\e[36m_______  _______  ___      _______  __   __  ___      _______  _______  _______  ______   \n|       ||   _   ||   |    |       ||  | |  ||   |    |   _   ||       ||       ||    _ |  \n|       ||  |_|  ||   |    |       ||  | |  ||   |    |  |_|  ||_     _||   _   ||   | ||  \n|       ||       ||   |    |       ||  |_|  ||   |    |       |  |   |  |  | |  ||   |_||_ \n|      _||       ||   |___ |      _||       ||   |___ |       |  |   |  |  |_|  ||    __  |\n|     |_ |   _   ||       ||     |_ |       ||       ||   _   |  |   |  |       ||   |  | |\n|_______||__| |__||_______||_______||_______||_______||__| |__|  |___|  |_______||___|  |_|\n\e[0m");
+    
     printf("Welcome to our calculator!\n");
 
     printf("Enter a math calculation:");
@@ -50,23 +58,6 @@ int main()
 
     default:
         printf("Enter a valid operation next time!");
-        break;
-    }
-
-    char Y = 'Y';
-    char N = 'N';
-
-    if ()
-    {
-        printf("Do you want to use the calculator again? [Y/N]");
-
-    } else if (scanf("%c", Y))
-        {
-        }
-    }
-    else
-    {
-        printf("Thank you for using our calculator, see you next time!");
         break;
     }
 }
