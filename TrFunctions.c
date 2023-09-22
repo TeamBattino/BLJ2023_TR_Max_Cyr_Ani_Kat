@@ -23,7 +23,7 @@ int PaperStoneSissors()
     {
         printf("Papier -Papier");
     }
-    else if (randomnumber > playerguess && )
+    else if (randomnumber > playerguess &&)
     {
         printf("Test12");
     }
@@ -32,6 +32,13 @@ int subtract(int num1, int num2)
 {
     int subtract = num1 - num2;
     printf("%d\n", subtract);
+
+       int number = -5;
+    if (number < 0) {
+        printf("Die Zahl ist negativ.\n");
+    } else {
+        printf("Die Zahl ist nicht negativ.\n");
+    }
 }
 
 int multiplication(int num1, int num2)
