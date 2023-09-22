@@ -11,19 +11,19 @@ int PaperStoneSissors()
     printf("%d", randomnumber);
     scanf("%d", &playerguess);
 
-    if (randomnumber == playerguess && playerguess == 1)
+    if (randomnumber == playerguess && playerguess == 1) // wenn 1=1
     {
         printf("Schere - Schere");
     }
-    else if (randomnumber == playerguess && playerguess == 2)
+    else if (randomnumber == playerguess && playerguess == 2)// wenn 2=2
     {
         printf("Stein - Stein");
     }
-    else if (randomnumber == playerguess && playerguess == 3)
+    else if (randomnumber == playerguess && playerguess == 3)// wenn 3=3
     {
         printf("Papier -Papier");
     }
-    else if (randomnumber > playerguess && )
+    else if (playerguess > randomnumber && randomnumber == 2)// wenn 1=2
     {
         printf("Test12");
     }
