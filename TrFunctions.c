@@ -61,6 +61,8 @@ int PaperStoneSissors()
         printf("Error\n");
     }
 }
+
+
 int subtract(int num1, int num2)
 {
     int subtract = num1 - num2;
@@ -74,7 +76,7 @@ int subtract(int num1, int num2)
     else
     {
         printf("Die Zahl ist nicht negativ.\n");
-    }
+    } 
 }
 
 int multiplication(int num1, int num2)
@@ -83,8 +85,15 @@ int multiplication(int num1, int num2)
     printf("%d\n", multiplication);
 }
 
-int Expo(int num1, int num2)
+int Expo(int base, int expo)
 {
-    int Expo = num1 ^ num2;
-    printf("%d\n", Expo);
+      int result = 1;
+    while (expo > 0) {
+        if (expo % 2 == 1) {
+            result *= base;
+        }
+        base *= base;
+        expo /= 2;
+    }
+    return result;
 }
