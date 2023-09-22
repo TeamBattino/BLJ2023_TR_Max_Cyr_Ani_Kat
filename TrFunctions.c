@@ -4,32 +4,72 @@
 
 int PaperStoneSissors()
 {
-    int playerguess = 0;
-    srand(time(NULL));
-    int randomnumber = (rand() % (3 - 1 + 1)) + 1;
-
-    printf("%d", randomnumber);
-    scanf("%d", &playerguess);
-
-    switch (randomnumber)
+    char playrps = 'y';
+    while (playrps == 'y')
     {
-    case randomnumber == 1:
-        printf("Test");
-        break;
+        int playerguess = 0;
+        srand(time(NULL));
+        int randomnumber = (rand() % (3 - 1 + 1)) + 1;
 
-    case randomnumber == 2:
-        printf("Test2");
-        break;
+        printf("\e[33mRock Paper Sissors\e[0m\n\nEnter your Guess!\n<1> Sissor\n<2> Rock\n<3> Paper\n");
+        scanf("%d", &playerguess);
 
-    case randomnumber == 3:
-        printf("Test3");
-        break;
+        if (playerguess == 1)
+        {
+            if (randomnumber == 1)
+            {
+                printf("\e[30mTie!\e[0m\n");
+            }
+            else if (randomnumber == 2)
+            {
+                printf("\e[31mYou Lose!\e[0m\n");
+            }
+            else if (randomnumber == 3)
+            {
+                printf("\e[32mYou Win!\e[0m\n");
+            }
+        }
+        else if (playerguess == 2)
+        {
+            if (randomnumber == 1)
+            {
+                printf("\e[32mYou Win!\e[0m\n");
+            }
+            else if (randomnumber == 2)
+            {
+                printf("\e[30mTie!\e[0m\n");
+            }
+            else if (randomnumber == 3)
+            {
+                printf("\e[31mYou Lose!\e[0m\n");
+            }
+        }
+        else if (playerguess == 3)
+        {
+            if (randomnumber == 1)
+            {
+                printf("\e[31mYou Lose!\e[0m\n");
+            }
+            else if (randomnumber == 2)
+            {
+                printf("\e[32mYou Win!\e[0m\n");
+            }
+            else if (randomnumber == 3)
+            {
+                printf("\e[30mTie!\e[0m\n");
+            }
+        }
+        else
+        {
+            printf("\e[31mError!\e[0m\n");
+        }
 
-    default:
-        break;
+
+        printf("Do you want to play again? (y/n)\n");
+        scanf(" %c", &playrps);
+        
+
     }
-
-
 }
 
 int add(int num1, int num2)
@@ -50,10 +90,17 @@ int multiplication(int num1, int num2)
     printf("%d\n", multiplication);
 }
 
-int Expo(int num1, int num2)
+int Expo(int base, int expo)
 {
-    int Expo = num1 ^ num2;
-    printf("%d\n", Expo);
+    int result = 1;
+    while (expo > 0)
+    {
+        if (expo % 2 == 1)
+        {
+            result *= base;
+        }
+        base *= base;
+        expo /= 2;
+    }
+    return result;
 }
-
-    
