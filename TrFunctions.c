@@ -5,66 +5,69 @@
 int PaperStoneSissors()
 {
     char playrps = 'y';
-    while (playrps = 'y')
+    while (playrps == 'y')
     {
         int playerguess = 0;
         srand(time(NULL));
         int randomnumber = (rand() % (3 - 1 + 1)) + 1;
 
-        printf("\e[33mRock Paper Sissors\e[0m\n\nEnter your Guess!\n<1> Schere\n<2> Stein\n<3> Papier\n");
+        printf("\e[33mRock Paper Sissors\e[0m\n\nEnter your Guess!\n<1> Sissor\n<2> Rock\n<3> Paper\n");
         scanf("%d", &playerguess);
 
         if (playerguess == 1)
         {
             if (randomnumber == 1)
             {
-                printf("\e[30mGleichstand\e[0m\n");
+                printf("\e[30mTie!\e[0m\n");
             }
             else if (randomnumber == 2)
             {
-                printf("\e[31mDu verlierst!\e[0m\n");
+                printf("\e[31mYou Lose!\e[0m\n");
             }
             else if (randomnumber == 3)
             {
-                printf("\e[32mDu gewinnst!\e[0m\n");
+                printf("\e[32mYou Win!\e[0m\n");
             }
         }
         else if (playerguess == 2)
         {
             if (randomnumber == 1)
             {
-                printf("\e[32mDu gewinnst!\e[0m\n");
+                printf("\e[32mYou Win!\e[0m\n");
             }
             else if (randomnumber == 2)
             {
-                printf("\e[30mGleichstand\e[0m\n");
+                printf("\e[30mTie!\e[0m\n");
             }
             else if (randomnumber == 3)
             {
-                printf("\e[31mDu verlierst!\e[0m\n");
+                printf("\e[31mYou Lose!\e[0m\n");
             }
         }
         else if (playerguess == 3)
         {
             if (randomnumber == 1)
             {
-                printf("\e[31mDu verlierst!\e[0m\n");
+                printf("\e[31mYou Lose!\e[0m\n");
             }
             else if (randomnumber == 2)
             {
-                printf("\e[32mDu gewinnst!\e[0m\n");
+                printf("\e[32mYou Win!\e[0m\n");
             }
             else if (randomnumber == 3)
             {
-                printf("\e[30mGleichstand\e[0m\n");
+                printf("\e[30mTie!\e[0m\n");
             }
         }
         else
         {
-            printf("\e[31mError\e[0m\n");
+            printf("\e[31mError!\e[0m\n");
         }
-        printf("Wilst du nochmal spielen? (y/n)\n");
-        scanf("%c", &playrps);
+
+
+        printf("Do you want to play again? (y/n)\n");
+        scanf(" %c", &playrps);
+        
 
     }
 }
