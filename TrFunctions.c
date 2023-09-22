@@ -11,25 +11,22 @@ int PaperStoneSissors()
     printf("%d", randomnumber);
     scanf("%d", &playerguess);
 
-    switch (randomnumber)
+    if (randomnumber == playerguess && playerguess == 1)
     {
-    case randomnumber == 1:
-        printf("Test");
-        break;
-
-    case randomnumber == 2:
-        printf("Test2");
-        break;
-
-    case randomnumber == 3:
-        printf("Test3");
-        break;
-
-    default:
-        break;
+        printf("Schere - Schere");
     }
-
-
+    else if (randomnumber == playerguess && playerguess == 2)
+    {
+        printf("Stein - Stein");
+    }
+    else if (randomnumber == playerguess && playerguess == 3)
+    {
+        printf("Papier -Papier");
+    }
+    else if (randomnumber > playerguess && )
+    {
+        printf("Test12");
+    }
 }
 int subtract(int num1, int num2)
 {

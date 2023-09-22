@@ -3,6 +3,7 @@
 
 int main()
 {
+    PaperStoneSissors();
     printf("Welcome to our calculator!\nEnter a math calculation:\n");
 
     int num1 = 0;
@@ -11,7 +12,7 @@ int main()
 
     scanf("%d%c%d", &num1, &operation, &num2);
 
-    switch (operation)
+    /*switch (operation)
     {
     case operation == '+':
 
@@ -34,5 +35,5 @@ int main()
     default:
         printf("Enter a valid operation next time!");
         break;
-    }
+    }*/
 }
