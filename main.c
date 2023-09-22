@@ -1,67 +1,75 @@
 #include "TrFunctions.h"
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
     char menuselection;
-    printf("\e[36m ▄████▄   ▄▄▄       ██▓     ▄████▄   █    ██  ██▓     ▄▄▄      ▄▄▄█████▓ ▒█████   ██▀███  \n▒██▀ ▀█  ▒████▄    ▓██▒    ▒██▀ ▀█   ██  ▓██▒▓██▒    ▒████▄    ▓  ██▒ ▓▒▒██▒  ██▒▓██ ▒ ██▒\n▒▓█    ▄ ▒██  ▀█▄  ▒██░    ▒▓█    ▄ ▓██  ▒██░▒██░    ▒██  ▀█▄  ▒ ▓██░ ▒░▒██░  ██▒▓██ ░▄█ ▒\n▒▓▓▄ ▄██▒░██▄▄▄▄██ ▒██░    ▒▓▓▄ ▄██▒▓▓█  ░██░▒██░    ░██▄▄▄▄██ ░ ▓██▓ ░ ▒██   ██░▒██▀▀█▄  \n▒ ▓███▀ ░ ▓█   ▓██▒░██████▒▒ ▓███▀ ░▒▒█████▓ ░██████▒ ▓█   ▓██▒  ▒██▒ ░ ░ ████▓▒░░██▓ ▒██▒\n░ ░▒ ▒  ░ ▒▒   ▓▒█░░ ▒░▓  ░░ ░▒ ▒  ░░▒▓▒ ▒ ▒ ░ ▒░▓  ░ ▒▒   ▓▒█░  ▒ ░░   ░ ▒░▒░▒░ ░ ▒▓ ░▒▓░\n  ░  ▒     ▒   ▒▒ ░░ ░ ▒  ░  ░  ▒   ░░▒░ ░ ░ ░ ░ ▒  ░  ▒   ▒▒ ░    ░      ░ ▒ ▒░   ░▒ ░ ▒░\n░          ░   ▒     ░ ░   ░         ░░░ ░ ░   ░ ░     ░   ▒     ░      ░ ░ ░ ▒    ░░   ░ \n░ ░            ░  ░    ░  ░░ ░         ░         ░  ░      ░  ░             ░ ░     ░     \n░                          ░                                                              \n\e[0m");
-    printf("What do you want?\n<c> Calculator\n<r> Rock Paper Sissors\n");
-    scanf(" %c", &menuselection);
 
-    if (menuselection == 'r')
+    printf("\e[36m\e[37m ██▀███   ▒█████   ▄████▄   ██ ▄█▀\e[36m █    ██  ██▓     ▄▄▄      ▄▄▄█████▓ ▒█████   ██▀███  \e[0m\n\e[37m ▓██ ▒ ██▒▒██▒  ██▒▒██▀ ▀█   ██▄█▒\e[36m  ██  ▓██▒▓██▒    ▒████▄    ▓  ██▒ ▓▒▒██▒  ██▒▓██ ▒ ██▒\e[0m\n\e[37m ▓██ ░▄█ ▒▒██░  ██▒▒▓█    ▄ ▓███▄░\e[36m ▓██  ▒██░▒██░    ▒██  ▀█▄  ▒ ▓██░ ▒░▒██░  ██▒▓██ ░▄█ ▒\e[0m\n\e[37m ▒██▀▀█▄  ▒██   ██░▒▓▓▄ ▄██▒▓██ █▄\e[36m ▓▓█  ░██░▒██░    ░██▄▄▄▄██ ░ ▓██▓ ░ ▒██   ██░▒██▀▀█▄  \e[0m\n\e[37m ░██▓ ▒██▒░ ████▓▒░▒ ▓███▀ ░▒██▒ █▄\e[36m▒▒█████▓ ░██████▒ ▓█   ▓██▒  ▒██▒ ░ ░ ████▓▒░░██▓ ▒██▒\e[0m\n\e[37m ░ ▒▓ ░▒▓░░ ▒░▒░▒░ ░ ░▒ ▒  ░▒ ▒▒ ▓▒\e[36m░▒▓▒ ▒ ▒ ░ ▒░▓  ░ ▒▒   ▓▒█░  ▒ ░░   ░ ▒░▒░▒░ ░ ▒▓ ░▒▓░\e[0m\n\e[37m  ░▒ ░ ▒░  ░ ▒ ▒░   ░  ▒   ░ ░▒ ▒░\e[36m░░▒░ ░ ░ ░ ░ ▒  ░  ▒   ▒▒ ░    ░      ░ ▒ ▒░   ░▒ ░ ▒░\e[0m\n\e[37m  ░░   ░ ░ ░ ░ ▒  ░        ░ ░░ ░ \e[36m ░░░ ░ ░   ░ ░     ░   ▒     ░      ░ ░ ░ ▒    ░░   ░ \e[0m\n\e[37m   ░         ░ ░  ░ ░      ░  ░   \e[36m   ░         ░  ░      ░  ░             ░ ░     ░     \e[0m\n\e[37m                  ░               \e[36m                                                      \e[0m\n\e[0m");
+    while (1)
     {
-        PaperStoneSissors();
-    }
+        printf("What do you want?\n<c> Calculator\n<r> Rock Paper Sissors\n");
+        scanf(" %c", &menuselection);
 
-    int num1 = 0;
-    int num2 = 0;
-    char operation = '\0';
-    int option = 0;
-    
-    printf("Welcome to our calculator!\n");
+        if (menuselection == 'r')
+        {
+            PaperStoneSissors();
+        }
+        else
+        {
 
-    printf("Enter a math calculation:");
-    scanf("%d%c%d", &num1, &operation, &num2);
+            int num1 = 0;
+            int num2 = 0;
+            char operation = '\0';
+            int option = 0;
 
-    switch (operation)
-    {
-    case '+':
-    {
-    }
-    break;
+            printf("Welcome to our calculator!\n");
 
-    case '-':
-    {
-        subtract(num1, num2);
-    }
-    break;
+            printf("Enter a math calculation:");
+            scanf("%d%c%d", &num1, &operation, &num2);
 
-    case '*':
-    {
+            switch (operation)
+            {
+            case '+':
+            {
+            }
+            break;
 
-        multiplication(num1, num2);
-    }
-    break;
+            case '-':
+            {
+                subtract(num1, num2);
+            }
+            break;
 
-    case '/':
-    {
-        operation == '/';
-    }
-    break;
+            case '*':
+            {
 
-    case '^':
-    {
-        Expo(num1, num2);
-    }
-    break;
+                multiplication(num1, num2);
+            }
+            break;
 
-    /*case '√'
-    {
-        int squareroot();
-    }*/
+            case '/':
+            {
+                operation == '/';
+            }
+            break;
 
-    default:
-        printf("Enter a valid operation next time!");
-        break;
+            case '^':
+            {
+                Expo(num1, num2);
+            }
+            break;
+
+                /*case '√'
+                {
+                    int squareroot();
+                }*/
+
+            default:
+                printf("Enter a valid operation next time!");
+                break;
+            }
+        }
     }
 }
