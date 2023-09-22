@@ -11,21 +11,54 @@ int PaperStoneSissors()
     printf("%d", randomnumber);
     scanf("%d", &playerguess);
 
-    if (randomnumber == playerguess && playerguess == 1) // wenn 1=1
+    if (playerguess == 1)
     {
-        printf("Schere - Schere");
+        if (randomnumber == 1)
+        {
+            printf("Gleichstand\n");
+        }
+        else if (randomnumber == 2)
+        {
+            printf("Du verlierst!\n");
+        }
+        else if (randomnumber == 3)
+        {
+            printf("Du gewinnst!\n");
+        }
     }
-    else if (randomnumber == playerguess && playerguess == 2)// wenn 2=2
+    else if (playerguess == 2)
     {
-        printf("Stein - Stein");
+        if (randomnumber == 1)
+        {
+            printf("Du gewinnst!\n");
+        }
+        else if (randomnumber == 2)
+        {
+            printf("Gleichstand\n");
+        }
+        else if (randomnumber == 3)
+        {
+            printf("Du verlierst!\n");
+        }
     }
-    else if (randomnumber == playerguess && playerguess == 3)// wenn 3=3
+    else if (playerguess == 3)
     {
-        printf("Papier -Papier");
+        if (randomnumber == 1)
+        {
+            printf("Du verlierst!\n");
+        }
+        else if (randomnumber == 2)
+        {
+            printf("Du Gewinnst!\n");
+        }
+        else if (randomnumber == 3)
+        {
+            printf("Gleichstand\n");
+        }
     }
-    else if (playerguess > randomnumber && randomnumber == 2)// wenn 1=2
+    else
     {
-        printf("Test12");
+        printf("Error\n");
     }
 }
 int subtract(int num1, int num2)
@@ -33,10 +66,13 @@ int subtract(int num1, int num2)
     int subtract = num1 - num2;
     printf("%d\n", subtract);
 
-       int number = -5;
-    if (number < 0) {
+    int number = -5;
+    if (number < 0)
+    {
         printf("Die Zahl ist negativ.\n");
-    } else {
+    }
+    else
+    {
         printf("Die Zahl ist nicht negativ.\n");
     }
 }
