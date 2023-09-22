@@ -18,57 +18,64 @@ int main()
         }
         else
         {
-
-            int num1 = 0;
-            int num2 = 0;
-            char operation = '\0';
-            int option = 0;
-
             printf("Welcome to our calculator!\n");
-
-            printf("Enter a math calculation:");
-            scanf("%d%c%d", &num1, &operation, &num2);
-
-            switch (operation)
+            char calculat = 'y';
+            while (calculat == 'y')
             {
-            case '+':
-            {
-            }
-            break;
+                int num1 = 0;
 
-            case '-':
-            {
-                subtract(num1, num2);
-            }
-            break;
+                int num2 = 0;
+                char operation = '\0';
+                int option = 0;
 
-            case '*':
-            {
+                printf("Enter a math calculation:");
+                scanf("%d%c%d", &num1, &operation, &num2);
 
-                multiplication(num1, num2);
-            }
-            break;
-
-            case '/':
-            {
-                operation == '/';
-            }
-            break;
-
-            case '^':
-            {
-                Expo(num1, num2);
-            }
-            break;
-
-                /*case '√'
+                switch (operation)
                 {
-                    int squareroot();
-                }*/
-
-            default:
-                printf("Enter a valid operation next time!");
+                case '+':
+                {
+                }
                 break;
+
+                case '-':
+                {
+                    subtract(num1, num2);
+                }
+                break;
+
+                case '*':
+                {
+
+                    multiplication(num1, num2);
+                }
+                break;
+
+                case '/':
+                {
+                    operation == '/';
+                }
+                break;
+
+                case '^':
+                {
+                    Expo(num1, num2);
+                }
+                break;
+
+                    /*case '√'
+                    {
+                        int squareroot();
+                    }*/
+
+                default:
+                {
+                    printf("Enter a valid operation next time!");
+                    break;
+                }
+                }
+                printf("Do you want to calculate again? (y/n)\n");
+                scanf(" %c", &calculat);
             }
         }
     }
