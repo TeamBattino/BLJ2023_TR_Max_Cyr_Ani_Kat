@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 
+int menu()
+{
+
+}
+
 int PaperStoneSissors()
 {
     char playrps = 'y';
