@@ -9,7 +9,7 @@ int PaperStoneSissors(int input)
     int randomnumber = (rand() % (3 - 1 + 1)) + 1;
 
     printf("%d", randomnumber);
-    scanf("%s", &playerguess)
+    scanf("%s", &playerguess);
 
 
 }
