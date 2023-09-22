@@ -1,20 +1,12 @@
 #include <stdio.h>
-<<<<<<< HEAD
 #include <stdlib.h>
-#include <math.h>
+#include <time.h>
 
-=======
+int PaperStoneSissors(int input)
+{
+srand(time(NULL));
+int randomnumber = (rand() % (3 - 1 + 1)) + 1;
 
-int PaperStoneSissors(int input){
+printf("%d", randomnumber);
 
-    printf("Test");
 }
-int PaperStoneSissors1(int input){
-
-    printf("Sample");
-}
-int Testfunktion(int input){
-
-    printf("Test");
-}
->>>>>>> d6fb1b08793303b35b8074c8a71506e20d22ed9b
