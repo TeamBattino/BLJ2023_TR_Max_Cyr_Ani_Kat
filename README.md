@@ -14,7 +14,7 @@ Funktionen:
 ### Documentation
 
 1. [Inform](Inform.md)
-2. [Plan](Plan.md)
+2. [Plan](Plan.canvas)
 3. [Decide](Decide.md)
 4. [Realization](Realise.md)
 5. [Control](Control.md)
