@@ -120,4 +120,20 @@ int Expo(int base, int expo)
         expo /= 2;
     }
     return result;
+
+
+}
+
+int factorial(int number) {
+    int fact = 1;
+
+    if (number < 0)
+        printf("Fehler! Fakultät von negativen Zahlen existiert nicht.");
+    else {
+        for (int i = 1; i <= number; ++i) {
+            fact *= i;
+        }
+    }
+
+    return fact;
 }
