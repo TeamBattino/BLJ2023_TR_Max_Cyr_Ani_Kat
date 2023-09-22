@@ -10,8 +10,8 @@ int PaperStoneSissors()
 
     printf("%d", randomnumber);
     scanf("%d", &playerguess);
-
-    if (playerguess == 1)
+/*
+    if (randomnumber == playerguess && playerguess == 1)
     {
         if (randomnumber == 1)
         {
