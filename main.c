@@ -13,30 +13,26 @@ int main()
 
     switch (operation)
     {
-    case '+':
-        
+    case operation == '+':
 
         break;
 
-    case '-':
-        
+    case operation == '-':
+
         int subtract(int num1, int num2);
         break;
 
-    case '*':
-        
+    case operation == '*':
+
         int multiplication(int num1, int num2);
         break;
 
-    case '/':
-        
+    case operation == '/':
+
         break;
 
     default:
         printf("Enter a valid operation next time!");
         break;
     }
-
-
-    
 }
