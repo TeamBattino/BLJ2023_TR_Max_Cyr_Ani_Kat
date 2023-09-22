@@ -10,25 +10,25 @@ int PaperStoneSissors()
 
     printf("%d", randomnumber);
     scanf("%d", &playerguess);
-
+/*
     switch (randomnumber)
     {
-    case randomnumber == 1:
+    //case randomnumber == 1:
         printf("Test");
         break;
 
-    case randomnumber == 2:
+    //case randomnumber == 2:
         printf("Test2");
         break;
 
-    case randomnumber == 3:
+    //case randomnumber == 3:
         printf("Test3");
         break;
 
     default:
         break;
     }
-
+*/
 
 }
 int subtract(int num1, int num2)
