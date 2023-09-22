@@ -64,11 +64,8 @@ int PaperStoneSissors()
             printf("\e[31mError!\e[0m\n");
         }
 
-
         printf("Do you want to play again? (y/n)\n");
         scanf(" %c", &playrps);
-        
-
     }
 }
 
@@ -90,21 +87,28 @@ int multiplication(int num1, int num2)
     printf("%d\n", multiplication);
 }
 
+int division(int num1, int num2)
+{
+    int division = num1 / num2;
+    printf("%d\n", division);
+}
+
 int squareroot()
 {
 
-    double square_root(double number) {
+    double square_root(double number)
+    {
         double guess = number / 2.0;
         double error = 0.00001;
 
-        while (guess * guess - number > error) {
+        while (guess * guess - number > error)
+        {
             guess = (guess + number / guess) / 2.0;
         }
 
         return guess;
-    
-}
-
+    }
+    printf("%d\n", squareroot);
 }
 
 int Expo(int base, int expo)
@@ -120,20 +124,23 @@ int Expo(int base, int expo)
         expo /= 2;
     }
     return result;
-
-
+    printf("%d\n", result);
 }
 
-int factorial(int number) {
+int factorial(int number)
+{
     int fact = 1;
 
     if (number < 0)
         printf("Fehler! Fakultät von negativen Zahlen existiert nicht.");
-    else {
-        for (int i = 1; i <= number; ++i) {
+    else
+    {
+        for (int i = 1; i <= number; ++i)
+        {
             fact *= i;
         }
     }
 
     return fact;
+    printf("%d\n", factorial);
 }

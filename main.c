@@ -1,7 +1,8 @@
 #include "TrFunctions.h"
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
     char menuselection;
     printf("\e[36m ▄████▄   ▄▄▄       ██▓     ▄████▄   █    ██  ██▓     ▄▄▄      ▄▄▄█████▓ ▒█████   ██▀███  \n▒██▀ ▀█  ▒████▄    ▓██▒    ▒██▀ ▀█   ██  ▓██▒▓██▒    ▒████▄    ▓  ██▒ ▓▒▒██▒  ██▒▓██ ▒ ██▒\n▒▓█    ▄ ▒██  ▀█▄  ▒██░    ▒▓█    ▄ ▓██  ▒██░▒██░    ▒██  ▀█▄  ▒ ▓██░ ▒░▒██░  ██▒▓██ ░▄█ ▒\n▒▓▓▄ ▄██▒░██▄▄▄▄██ ▒██░    ▒▓▓▄ ▄██▒▓▓█  ░██░▒██░    ░██▄▄▄▄██ ░ ▓██▓ ░ ▒██   ██░▒██▀▀█▄  \n▒ ▓███▀ ░ ▓█   ▓██▒░██████▒▒ ▓███▀ ░▒▒█████▓ ░██████▒ ▓█   ▓██▒  ▒██▒ ░ ░ ████▓▒░░██▓ ▒██▒\n░ ░▒ ▒  ░ ▒▒   ▓▒█░░ ▒░▓  ░░ ░▒ ▒  ░░▒▓▒ ▒ ▒ ░ ▒░▓  ░ ▒▒   ▓▒█░  ▒ ░░   ░ ▒░▒░▒░ ░ ▒▓ ░▒▓░\n  ░  ▒     ▒   ▒▒ ░░ ░ ▒  ░  ░  ▒   ░░▒░ ░ ░ ░ ░ ▒  ░  ▒   ▒▒ ░    ░      ░ ▒ ▒░   ░▒ ░ ▒░\n░          ░   ▒     ░ ░   ░         ░░░ ░ ░   ░ ░     ░   ▒     ░      ░ ░ ░ ▒    ░░   ░ \n░ ░            ░  ░    ░  ░░ ░         ░         ░  ░      ░  ░             ░ ░     ░     \n░                          ░                                                              \n\e[0m");
@@ -16,8 +17,8 @@ int main(){
     int num1 = 0;
     int num2 = 0;
     char operation = '\0';
-    int option = 0;
-    
+    // int option = 0;
+
     printf("Welcome to our calculator!\n");
 
     printf("Enter a math calculation:");
@@ -27,6 +28,7 @@ int main(){
     {
     case '+':
     {
+        add(num1, num2);
     }
     break;
 
@@ -38,14 +40,13 @@ int main(){
 
     case '*':
     {
-
         multiplication(num1, num2);
     }
     break;
 
     case '/':
     {
-        operation == '/';
+        division(num1, num2);
     }
     break;
 
@@ -55,10 +56,15 @@ int main(){
     }
     break;
 
-    /*case '√'
+        /*case '~':
+        {
+            squareroot();
+        }
+        break;*/
+
+    case '7':
     {
-        int squareroot();
-    }*/
+    }
 
     default:
         printf("Enter a valid operation next time!");
