@@ -3,39 +3,35 @@
 
 int main()
 {
-printf("Welcome to our calculator!\n Enter a math calculation:\n");
+    printf("Welcome to our calculator!\nEnter a math calculation:\n");
 
+    int num1 = 0;
+    int num2 = 0;
+    char operation = '+';
 
-int num1 = 0;
-int num2 = 0;
-char operation = '+';
+    scanf("%d%c%d", &num1, &operation, &num2);
 
-scanf("%d%c%d", &num1, &operation, &num2);
+    switch (1)
+    {
+    case '+':
 
-switch ()
-{
-case +:
-    
-    break;
+        break;
 
-case -:
+    case '-':
+        int subtract(int num1, int num2);
+        break;
 
-    break;
+    case '*':
 
-case *:
+        break;
 
-    break;
+    case '/':
 
-case /:
+        break;
 
-    break;
+    default:
 
-default:
-
-printf("Enter a valid operation next time!")
-    break;
-}
-
-
-
+        printf("Enter a valid operation next time!");
+         break;
+    }
 }
