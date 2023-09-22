@@ -4,12 +4,13 @@
 int main()
 {
 
-    //PaperStoneSissors();
+    PaperStoneSissors();
+
     int num1 = 0;
     int num2 = 0;
     char operation = '\0';
     int option = 0;
-
+    printf("\e[36m_______  _______  ___      _______  __   __  ___      _______  _______  _______  ______   \n|       ||   _   ||   |    |       ||  | |  ||   |    |   _   ||       ||       ||    _ |  \n|       ||  |_|  ||   |    |       ||  | |  ||   |    |  |_|  ||_     _||   _   ||   | ||  \n|       ||       ||   |    |       ||  |_|  ||   |    |       |  |   |  |  | |  ||   |_||_ \n|      _||       ||   |___ |      _||       ||   |___ |       |  |   |  |  |_|  ||    __  |\n|     |_ |   _   ||       ||     |_ |       ||       ||   _   |  |   |  |       ||   |  | |\n|_______||__| |__||_______||_______||_______||_______||__| |__|  |___|  |_______||___|  |_|\n\e[0m");
     printf("Welcome to our calculator!\n");
 
     printf("Enter a math calculation:");
@@ -19,7 +20,6 @@ int main()
     {
     case '+':
     {
-        
     }
     break;
 
@@ -31,7 +31,7 @@ int main()
 
     case '*':
     {
-        
+
         multiplication(num1, num2);
     }
     break;
