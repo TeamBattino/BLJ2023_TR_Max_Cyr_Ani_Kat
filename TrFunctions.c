@@ -10,7 +10,7 @@ int PaperStoneSissors()
 
     printf("%d", randomnumber);
     scanf("%d", &playerguess);
-/*
+
     if (randomnumber == playerguess && playerguess == 1)
     {
         if (randomnumber == 1)
@@ -62,7 +62,6 @@ int PaperStoneSissors()
     }
 }
 
-
 int subtract(int num1, int num2)
 {
     int subtract = num1 - num2;
@@ -71,12 +70,12 @@ int subtract(int num1, int num2)
     int number = -5;
     if (number < 0)
     {
-        printf("Die Zahl ist negativ.\n");
+        printf("Die Zahl ist nicht negativ.\n");
     }
     else
     {
-        printf("Die Zahl ist nicht negativ.\n");
-    } 
+        printf("Die Zahl ist negativ.\n");
+    }
 }
 
 int multiplication(int num1, int num2)
@@ -87,9 +86,11 @@ int multiplication(int num1, int num2)
 
 int Expo(int base, int expo)
 {
-      int result = 1;
-    while (expo > 0) {
-        if (expo % 2 == 1) {
+    int result = 1;
+    while (expo > 0)
+    {
+        if (expo % 2 == 1)
+        {
             result *= base;
         }
         base *= base;
