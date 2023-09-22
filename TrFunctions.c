@@ -22,17 +22,17 @@ int Testfunktion(int input){
 int subtract(int num1, int num2)
 {
    int subtract = num1 - num2;
-   return subtract;
+   printf("%d\n", num1 - num2);
 }
 
 int multiplication(int num1, int num2)
 {
     int multiplication = num1 * num2;
-    return multiplication;
+    printf("%d\n", num1 * num2);
 }
 
 int Expo( int num1, int x)
 {
     int Expo = num1^x;
-    return Expo;
+    printf("%d\n", num1^x);
 }
