@@ -1,4 +1,9 @@
 #include <stdio.h>
+<<<<<<< HEAD
+#include <stdlib.h>
+#include <math.h>
+
+=======
 
 int PaperStoneSissors(int input){
 
@@ -12,3 +17,4 @@ int Testfunktion(int input){
 
     printf("Test");
 }
+>>>>>>> d6fb1b08793303b35b8074c8a71506e20d22ed9b
