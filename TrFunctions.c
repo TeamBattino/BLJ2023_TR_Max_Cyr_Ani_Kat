@@ -10,7 +10,7 @@ int PaperStoneSissors()
 
     printf("%d", randomnumber);
     scanf("%d", &playerguess);
-
+/*
     if (randomnumber == playerguess && playerguess == 1)
     {
         printf("Schere - Schere");
@@ -23,10 +23,10 @@ int PaperStoneSissors()
     {
         printf("Papier -Papier");
     }
-    else if (randomnumber > playerguess && )
+    else if (randomnumber > playerguess &&)
     {
         printf("Test12");
-    }
+    }*/
 }
 int subtract(int num1, int num2)
 {
