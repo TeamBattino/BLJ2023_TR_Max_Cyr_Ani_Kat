@@ -15,7 +15,7 @@ int main()
     scanf("%d%c%d", &num1, &operation, &num2);
     
 
-    switch (operation)
+    /*switch (operation)
     {
     case '+':
     {
@@ -46,5 +46,5 @@ int main()
     default:
         printf("Enter a valid operation next time!");
         break;
-    }
+    }*/
 }
