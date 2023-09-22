@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int PaperStoneSissors(int input)
+int PaperStoneSissors()
 {
     int playerguess = 0;
     srand(time(NULL));
