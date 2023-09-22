@@ -8,3 +8,7 @@ int PaperStoneSissors1(int input){
 
     printf("Sample");
 }
+int Testfunktion(int input){
+
+    printf("Test");
+}
