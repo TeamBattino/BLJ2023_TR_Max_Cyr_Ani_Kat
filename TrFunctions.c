@@ -77,6 +77,12 @@ int PaperStoneSissors()
     }
 }
 
+int add(int num1, int num2)
+{
+    int add = num1 + num2;
+    printf("%d\n", add);
+}
+
 int subtract(int num1, int num2)
 {
     int subtract = num1 - num2;
@@ -87,6 +93,23 @@ int multiplication(int num1, int num2)
 {
     int multiplication = num1 * num2;
     printf("%d\n", multiplication);
+}
+
+int squareroot()
+{
+
+    double square_root(double number) {
+        double guess = number / 2.0;
+        double error = 0.00001;
+
+        while (guess * guess - number > error) {
+            guess = (guess + number / guess) / 2.0;
+        }
+
+        return guess;
+    
+}
+
 }
 
 int Expo(int base, int expo)
