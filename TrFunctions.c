@@ -1,9 +1,7 @@
 #include <stdio.h>
-<<<<<<< HEAD
 #include <stdlib.h>
 #include <math.h>
 
-=======
 
 int PaperStoneSissors(int input){
 
@@ -17,4 +15,17 @@ int Testfunktion(int input){
 
     printf("Test");
 }
->>>>>>> d6fb1b08793303b35b8074c8a71506e20d22ed9b
+int subtract(int num1, int num2)
+{
+   int subtract = num1 - num2;
+}
+
+int multiplication(int num1, int num2)
+{
+    int multiplication = num1 * num2;
+}
+
+int Expo( int num1, int x)
+{
+    int Expo = num1^x;
+}
