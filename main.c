@@ -4,7 +4,7 @@
 int main()
 {
 
-    //PaperStoneSissors();
+    // PaperStoneSissors();
     int num1 = 0;
     int num2 = 0;
     char operation = '\0';
@@ -19,7 +19,6 @@ int main()
     {
     case '+':
     {
-        
     }
     break;
 
@@ -31,7 +30,6 @@ int main()
 
     case '*':
     {
-        
         multiplication(num1, num2);
     }
     break;
@@ -46,9 +44,27 @@ int main()
     {
         Expo(num1, num2);
     }
+    break;
 
     default:
         printf("Enter a valid operation next time!");
+        break;
+    }
+
+    char Y = 'Y';
+    char N = 'N';
+
+    if ()
+    {
+        printf("Do you want to use the calculator again? [Y/N]");
+
+    } else if (scanf("%c", Y))
+        {
+        }
+    }
+    else
+    {
+        printf("Thank you for using our calculator, see you next time!");
         break;
     }
 }
