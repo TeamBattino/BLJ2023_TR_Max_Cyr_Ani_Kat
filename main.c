@@ -46,9 +46,27 @@ int main()
     {
         Expo(num1, num2);
     }
+    break;
 
     default:
         printf("Enter a valid operation next time!");
+        break;
+    }
+
+    char Y = 'Y';
+    char N = 'N';
+
+    if ()
+    {
+        printf("Do you want to use the calculator again? [Y/N]");
+
+    } else if (scanf("%c", Y))
+        {
+        }
+    }
+    else
+    {
+        printf("Thank you for using our calculator, see you next time!");
         break;
     }
 }
