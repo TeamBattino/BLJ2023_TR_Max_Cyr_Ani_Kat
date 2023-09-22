@@ -12,7 +12,29 @@ char operation = '+';
 
 scanf("%d%c%d", &num1, &operation, &num2);
 
+switch ()
+{
+case +:
+    
+    break;
 
+case -:
+
+    break;
+
+case *:
+
+    break;
+
+case /:
+
+    break;
+
+default:
+
+printf("Enter a valid operation next time!")
+    break;
+}
 
 
 
