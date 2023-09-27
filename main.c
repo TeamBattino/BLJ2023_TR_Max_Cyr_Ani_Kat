@@ -19,6 +19,7 @@ int main()
         else
         {
             printf("Welcome to our calculator!\n");
+            printf("+ for Addition\n- for Subtraction\n* for Multiplication\n/ for Division\n~ for Squareroot\n^ for Exponential\n| for Factorial\n");
             char calculat = 'y';
             while (calculat == 'y')
             {
