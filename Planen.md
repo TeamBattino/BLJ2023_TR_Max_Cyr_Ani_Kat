@@ -38,5 +38,4 @@ Cyrill:
 Max:
 	Main
 	Dividieren
-	
-Github erweitert read.me files erstellt und diese verlinkt
+
