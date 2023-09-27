@@ -27,16 +27,13 @@ int main()
                 int num3 = 0;
 
                 char operation = '\0';
-                
 
                 printf("Enter a valid operation:");
 
                 fflush(stdin);
 
-                scanf("%c", &operation);
-
+                scanf(" %c", &operation);
                 printf("Enter a math calculation:");
-            
 
                 switch (operation)
                 {
@@ -92,8 +89,8 @@ int main()
                 default:
                 {
                     printf("Enter a valid operation next time!\n");
-                    break;
                 }
+                break;
                 }
                 printf("Do you want to calculate again? (y/n)\n");
                 scanf(" %c", &calculat);
