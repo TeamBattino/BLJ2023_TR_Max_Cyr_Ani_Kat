@@ -69,9 +69,9 @@ int PaperStoneSissors()
     }
 }
 
-int add(int num1, int num2, int num3)
+int add(int num1, int num2)
 {
-    int add = num1 + num2 + num3;
+    int add = num1 + num2;
     printf("%d\n", add);
 
     return add;
@@ -103,14 +103,14 @@ float division(int num1, int num2)
 }
 
 
-double squareroot(double num1)
+double squareroot(int num1)
 {
      double guess = num1 / 2.0;
      double error = 0.00001;
 
-    while (guess * guess - num1 > error)
+    while (guess * guess - (double)num1 > error)
      {
-        guess = (guess + num1 / guess) / 2.0;
+        guess = (guess + (double)num1 / guess) / 2.0;
      }
     
     printf("%lf\n", guess);

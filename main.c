@@ -30,13 +30,15 @@ int main()
                 // int option = 0;
 
                 printf("Enter a math calculation:");
-                scanf("%d%c%d", &num1, &operation, &num2);
+                //scanf("%d%c%d", &num1, &operation, &num2);
+
+                scanf("%c%d", &operation, &num1);
 
                 switch (operation)
                 {
                 case '+':
                 {
-                    add(num1, num2, num3);
+                    add(num1, num2);
                 }
                 break;
 
@@ -58,7 +60,7 @@ int main()
                 }
                 break;
 
-                case '~':
+                case 'r':
                 {
                     squareroot(num1);
                 }
@@ -70,7 +72,7 @@ int main()
                 }
                 break;
 
-                case '|':
+                case 'f':
                 {
                     factorial(num1);
                 }
