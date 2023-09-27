@@ -18,10 +18,10 @@
 |13|Buchstaben anstelle von Operator|a|Error Meldung|Enter a math calculation:Enter a valid operation next time!Do you want to calculate again? (y/n)|nicht ok|
 |14|Buchstaben anstelle von Zahlen|a a|Error Meldung|Rechner restarted|nicht ok|
 |15|Bei Schere, Stein, Papier Buchstaben eingeben|a|Error Meldung|Error Meldung|ok|
-|15|Bei Schere, Stein, Papier ungültige Zahl eingeben|4|Error Meldung|Error Meldung|ok|
-|15|Sehr grosse zahlen eingeben|999999 / 999999|1|1|ok|
-|15|Bei Menu Selectscreen zahl eingeben|3|Error Message|Started Calculator|nicht ok|
-|15|Bei Menu Selectscreen ungültiger Buchstaben eingeben|a|Error Message|Started Calculator|nicht ok|
+|16|Bei Schere, Stein, Papier ungültige Zahl eingeben|4|Error Meldung|Error Meldung|ok|
+|17|Sehr grosse zahlen eingeben|999999 / 999999|1|1|ok|
+|18|Bei Menu Selectscreen zahl eingeben|3|Error Message|Started Calculator|nicht ok|
+|19|Bei Menu Selectscreen ungültiger Buchstaben eingeben|a|Error Message|Started Calculator|nicht ok|
 
 
 

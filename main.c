@@ -15,7 +15,7 @@ int main()
         {
             PaperStoneScissors();
         }
-        else
+        else if(menuselection == 'c')
         {
             printf("Welcome to our calculator!\n");
             printf("+ for Addition\n- for Subtraction\n* for Multiplication\n/ for Division\n~ for Squareroot\n^ for Exponential\n| for Factorial\n");
@@ -138,6 +138,9 @@ int main()
                 printf("Do you want to calculate again? (y/n)\n");
                 scanf(" %c", &calculat);
             }
+        }else
+        {
+            printf("This is not r or c!");
         }
     }
 }
