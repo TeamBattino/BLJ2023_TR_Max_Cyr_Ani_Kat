@@ -28,7 +28,7 @@ int main()
                 int num3 = 0;
 
                 char operation = '\0';
-                // int option = 0;
+                
 
                 printf("Enter a valid operation:");
 
@@ -37,9 +37,9 @@ int main()
                 scanf("%c", &operation);
 
                 printf("Enter a math calculation:");
-                // scanf("%d%c%d", &num1, &operation, &num2);
+            
 
-                                switch (operation)
+                switch (operation)
                 {
                 case '+':
                 {
@@ -78,7 +78,7 @@ int main()
 
                 case '^':
                 {
-                    scanf("%d", &num1, &num2);
+                    scanf("%d%d", &num1, &num2);
                     Expo(num1, num2);
                 }
                 break;

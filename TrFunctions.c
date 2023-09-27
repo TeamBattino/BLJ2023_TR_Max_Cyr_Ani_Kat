@@ -121,17 +121,17 @@ double squareroot(int num1)
     printf("%lf\n", guess);
 }
 
-int Expo(int base, int expo)
+int Expo(int num1, int num2)
 {
     int result = 1;
-    while (expo > 0)
+    while (num2 > 0)
     {
-        if (expo % 2 == 1)
+        if (num2 % 2 == 1)
         {
-            result *= base;
+            result *= num1;
         }
-        base *= base;
-        expo /= 2;
+        num1 *= num1;
+        num2 /= 2;
     }
     printf("%d\n", result);
 
