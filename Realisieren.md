@@ -67,9 +67,11 @@ Als nächstes deklarierte und initialisierte ich die Variable für die Rechnung.
 __________
 ### Anik
 Ich habe mit dem Coden der einen hälfte der Operatoren begonnen, da wir die Operatoren auf Katarina und mich augeteilt haben.
-Wir haben uns geeinigt das ich die Operatoren Minus, Mal und Exponente übernehme und Katraina die anderen drei. Ich brauchte am anfang etwas Hilfe die ich auch von meinen Gruppenmitgliedern erhielt.
+Wir haben uns geeinigt das ich die Operatoren Minus, Mal und Exponente übernehme und Katarina die anderen drei. Ich brauchte am anfang etwas Hilfe die ich auch von meinen Gruppenmitgliedern erhielt.
 Ich habe den Code auch so geschrieben das man ihn gut ins Main einbauen kann.
 
 ____________
 ### Katarina
+Mir wurden das Addieren, die Wurzel und die Fakultät als Operatoren zugewiesen. Ich fing zuerst mit dem Addieren an, das es der einfachste Operator zum coden war. Hier wird eine ganz einfache addition mit dem '+' Symbol durchgeführt. Bei der Wurzel und der Fakultät hatte ich recht Schwierigkeiten & Probleme gehabt, die ich mithilfe von meinen Gruppenmitgliedern und dem Internet lösen konnte. Gegen Schluss ging alles recht gut und ich konnte den Code ohne weitere Probleme laufen lassen.
+
 ________________

@@ -5,7 +5,6 @@ int main()
 {
 
     char menuselection;
-printf(" \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n");
     printf("\e[36m\e[37m ██▀███   ▒█████   ▄████▄   ██ ▄█▀\e[36m █    ██  ██▓     ▄▄▄      ▄▄▄█████▓ ▒█████   ██▀███  \e[0m\n\e[37m ▓██ ▒ ██▒▒██▒  ██▒▒██▀ ▀█   ██▄█▒\e[36m  ██  ▓██▒▓██▒    ▒████▄    ▓  ██▒ ▓▒▒██▒  ██▒▓██ ▒ ██▒\e[0m\n\e[37m ▓██ ░▄█ ▒▒██░  ██▒▒▓█    ▄ ▓███▄░\e[36m ▓██  ▒██░▒██░    ▒██  ▀█▄  ▒ ▓██░ ▒░▒██░  ██▒▓██ ░▄█ ▒\e[0m\n\e[37m ▒██▀▀█▄  ▒██   ██░▒▓▓▄ ▄██▒▓██ █▄\e[36m ▓▓█  ░██░▒██░    ░██▄▄▄▄██ ░ ▓██▓ ░ ▒██   ██░▒██▀▀█▄  \e[0m\n\e[37m ░██▓ ▒██▒░ ████▓▒░▒ ▓███▀ ░▒██▒ █▄\e[36m▒▒█████▓ ░██████▒ ▓█   ▓██▒  ▒██▒ ░ ░ ████▓▒░░██▓ ▒██▒\e[0m\n\e[37m ░ ▒▓ ░▒▓░░ ▒░▒░▒░ ░ ░▒ ▒  ░▒ ▒▒ ▓▒\e[36m░▒▓▒ ▒ ▒ ░ ▒░▓  ░ ▒▒   ▓▒█░  ▒ ░░   ░ ▒░▒░▒░ ░ ▒▓ ░▒▓░\e[0m\n\e[37m  ░▒ ░ ▒░  ░ ▒ ▒░   ░  ▒   ░ ░▒ ▒░\e[36m░░▒░ ░ ░ ░ ░ ▒  ░  ▒   ▒▒ ░    ░      ░ ▒ ▒░   ░▒ ░ ▒░\e[0m\n\e[37m  ░░   ░ ░ ░ ░ ▒  ░        ░ ░░ ░ \e[36m ░░░ ░ ░   ░ ░     ░   ▒     ░      ░ ░ ░ ▒    ░░   ░ \e[0m\n\e[37m   ░         ░ ░  ░ ░      ░  ░   \e[36m   ░         ░  ░      ░  ░             ░ ░     ░     \e[0m\n\e[37m                  ░               \e[36m                                                      \e[0m\n\e[0m");
     while (1)
     {
@@ -14,7 +13,7 @@ printf(" \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n");
 
         if (menuselection == 'r')
         {
-            PaperStoneSissors();
+            PaperStoneScissors();
         }
         else
         {
@@ -27,21 +26,19 @@ printf(" \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n");
                 int num2 = 0;
 
                 char operation = '\0';
-                
 
                 printf("Enter a valid operation:");
 
                 fflush(stdin);
 
-                scanf("%c", &operation);
-
-                printf("Enter a math calculation:");
-            
+                scanf(" %c", &operation);
+                
 
                 switch (operation)
                 {
                 case '+':
                 {
+                    printf("Enter a math calculation:");
                     scanf("%d%d", &num1, &num2);
                     add(num1, num2);
                 }
@@ -49,6 +46,7 @@ printf(" \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n");
 
                 case '-':
                 {
+                    printf("Enter a math calculation:");
                     scanf("%d%d", &num1, &num2);
                     subtract(num1, num2);
                 }
@@ -56,6 +54,7 @@ printf(" \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n");
 
                 case '*':
                 {
+                    printf("Enter a math calculation:");
                     scanf("%d%d", &num1, &num2);
                     multiplication(num1, num2);
                 }
@@ -63,6 +62,7 @@ printf(" \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n");
 
                 case '/':
                 {
+                    printf("Enter a math calculation:");
                     scanf("%d%d", &num1, &num2);
                     division(num1, num2);
                 }
@@ -70,6 +70,7 @@ printf(" \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n");
 
                 case '~':
                 {
+                    printf("Enter a math calculation:");
                     scanf("%d", &num1);
                     squareroot(num1);
                 }
@@ -77,6 +78,7 @@ printf(" \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n");
 
                 case '^':
                 {
+                    printf("Enter a math calculation:");
                     scanf("%d%d", &num1, &num2);
                     Expo(num1, num2);
                 }
@@ -84,6 +86,7 @@ printf(" \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n");
 
                 case '|':
                 {
+                    printf("Enter a math calculation:");
                     scanf("%d", &num1);
                     factorial(num1);
                 }
@@ -92,8 +95,8 @@ printf(" \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n");
                 default:
                 {
                     printf("Enter a valid operation next time!\n");
-                    break;
                 }
+                break;
                 }
                 printf("Do you want to calculate again? (y/n)\n");
                 scanf(" %c", &calculat);
