@@ -33,63 +33,100 @@ int main()
                 fflush(stdin);
 
                 scanf(" %c", &operation);
-                
 
                 switch (operation)
                 {
                 case '+':
                 {
                     printf("Enter a math calculation:");
-                    scanf("%d%d", &num1, &num2);
+                    if (scanf("%d%d", &num1, &num2))
+                    {
                     add(num1, num2);
+                    }else
+                    {
+                        printf("Not a Valid Number!\n");
+                    }
                 }
                 break;
 
                 case '-':
                 {
                     printf("Enter a math calculation:");
-                    scanf("%d%d", &num1, &num2);
+                    if (scanf("%d%d", &num1, &num2)== 1)
+                    {
                     subtract(num1, num2);
+                    }else
+                    {
+                        printf("Not a Valid Number!\n");
+                    }
                 }
                 break;
 
                 case '*':
                 {
                     printf("Enter a math calculation:");
-                    scanf("%d%d", &num1, &num2);
+                    if (scanf("%d%d", &num1, &num2)== 1)
+                    {
                     multiplication(num1, num2);
+                    }else
+                    {
+                        printf("Not a Valid Number!\n");
+                    }
                 }
                 break;
 
                 case '/':
                 {
                     printf("Enter a math calculation:");
-                    scanf("%d%d", &num1, &num2);
+                    if (scanf("%d%d", &num1, &num2)== 1)
+                    {
                     division(num1, num2);
+                    }else
+                    {
+                        printf("Not a Valid Number!\n");
+                    }
                 }
                 break;
 
                 case '~':
                 {
                     printf("Enter a math calculation:");
-                    scanf("%d", &num1);
-                    squareroot(num1);
+                    if (scanf("%d", &num1) == 1)
+                    {
+                        squareroot(num1);
+                    }
+                    else
+                    {
+                        printf("Not a Valid Number!\n");
+                    }
                 }
                 break;
 
                 case '^':
                 {
                     printf("Enter a math calculation:");
-                    scanf("%d%d", &num1, &num2);
-                    Expo(num1, num2);
+                    if (scanf("%d%d", &num1, &num2) == 1)
+                    {
+                        Expo(num1, num2);
+                    }
+                    else
+                    {
+                        printf("Not a Valid Number!\n");
+                    }
                 }
                 break;
 
                 case '|':
                 {
                     printf("Enter a math calculation:");
-                    scanf("%d", &num1);
-                    factorial(num1);
+                    if (scanf("%d", &num1) == 1)
+                    {
+                        factorial(num1);
+                    }
+                    else
+                    {
+                        printf("Not a Valid Number!\n");
+                    }
                 }
                 break;
 
