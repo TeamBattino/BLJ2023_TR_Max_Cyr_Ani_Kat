@@ -10,7 +10,7 @@ int PaperStoneSissors()
 
     printf("%d", randomnumber);
     scanf("%d", &playerguess);
-/*
+
     if (randomnumber == playerguess && playerguess == 1)
     {
         if (randomnumber == 1)
@@ -81,7 +81,7 @@ int Expo(int base, int expo)
     while (expo > 0) {
         if (expo % 2 == 1) {
             result *= base;
-        }
+        } 
         base *= base;
         expo /= 2;
     }
