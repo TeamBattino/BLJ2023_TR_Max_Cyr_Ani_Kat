@@ -97,7 +97,7 @@ float division(int num1, int num2)
     }
     else
     {
-        float division = num1 / num2;
+        float division =  (float) num1 / num2;
         printf("%.3f\n", division);
     }
 }
