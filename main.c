@@ -12,6 +12,7 @@ int main()
         printf("What do you want?\n<c> Calculator\n<r> Rock Paper Sissors\n");
         scanf(" %c", &menuselection);
 
+
         if (menuselection == 'r')
         {
             PaperStoneSissors();
@@ -62,14 +63,15 @@ int main()
                 }
                 break;
 
-                    /*case '~':
-                    {
-                        squareroot();
-                    }
-                    break;*/
+                case '~':
+                {
+                     squareroot(num1);
+                }
+                break;
 
                 case '7':
                 {
+                    factorial(num1);
                 }
                 default:
                 {
