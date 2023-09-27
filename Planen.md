@@ -26,17 +26,17 @@ Dannach haben wir das alles besprochen, fehlendes hinzugefügt und die Aufgabent
 
 ![TrTasks](https://github.com/WeberCyrill/BLJ2023_TR_Max_Cyr_Ani_Kat/blob/main/Bilder/TrTasks.png)
 _______________
-Katarina:  
+#### Katarina:  
 - Summieren  
 - Wurzeln  
 - Fakultät  
-Anik:  
+#### Anik:  
 - Exponenten  
 - Subtrahieren  
 - Multiplizieren  
-Cyrill:  
+#### Cyrill:  
 - Schere, Stein, Papier  
-Max:  
+#### Max:  
 - Main  
 - Dividieren  
 
