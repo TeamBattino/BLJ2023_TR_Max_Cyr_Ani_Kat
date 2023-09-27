@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int PaperStoneSissors()
+int PaperStoneScissors()
 {
     char playrps = 'y';
     while (playrps == 'y')
@@ -11,7 +11,7 @@ int PaperStoneSissors()
         srand(time(NULL));
         int randomnumber = (rand() % (3 - 1 + 1)) + 1;
 
-        printf("\e[33mRock Paper Sissors\e[0m\n\nEnter your Guess!\n<1> Sissor\n<2> Rock\n<3> Paper\n");
+        printf("\e[33mRock Paper Scissors\e[0m\n\nEnter your Guess!\n<1> Scissor\n<2> Rock\n<3> Paper\n");
         scanf("%d", &playerguess);
 
         if (playerguess == 1)

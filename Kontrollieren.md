@@ -14,3 +14,13 @@
 |9|Wurzel von einer Zahl ziehen|25|5|5|ok|
 |10|Exponenten berechnen|2 (Basis) 5 (Exponent)|32|32|ok|
 |11|Fakultät berechnen|5|120|120|ok|
+|12|Dividieren durch 0|2 / 0|Error Meldung|Error Meldung|ok|
+|13|Buchstaben anstelle von Operator|a|Error Meldung|Enter a math calculation:Enter a valid operation next time!Do you want to calculate again? (y/n)|nicht ok|
+|14|Buchstaben anstelle von Zahlen|a a|Error Meldung|Rechner restarted|nicht ok|
+|15|Bei Schere, Stein, Papier Buchstaben eingeben|a|Error Meldung|Error Meldung|ok|
+|15|Bei Schere, Stein, Papier ungültige Zahl eingeben|4|Error Meldung|Error Meldung|ok|
+
+
+
+
+
