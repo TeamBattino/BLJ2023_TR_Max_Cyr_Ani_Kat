@@ -25,7 +25,6 @@ printf(" \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n");
             {
                 int num1 = 0;
                 int num2 = 0;
-                int num3 = 0;
 
                 char operation = '\0';
                 
