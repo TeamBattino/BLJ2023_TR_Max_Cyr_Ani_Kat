@@ -1,5 +1,6 @@
-# Taschenrechner
+# Rockulator
 
+![TrTasks](https://github.com/WeberCyrill/BLJ2023_TR_Max_Cyr_Ani_Kat/blob/main/Bilder/Rockulator.png)
 ### Beschreibung
 Wir machen einen Taschenrechener.
 Funktionen:
