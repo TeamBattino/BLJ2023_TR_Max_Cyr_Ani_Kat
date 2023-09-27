@@ -51,7 +51,7 @@ int main()
                 case '-':
                 {
                     printf("Enter a math calculation:");
-                    if (scanf("%d%d", &num1, &num2)== 1)
+                    if (scanf("%d%d", &num1, &num2)== 2)
                     {
                     subtract(num1, num2);
                     }else
@@ -64,7 +64,7 @@ int main()
                 case '*':
                 {
                     printf("Enter a math calculation:");
-                    if (scanf("%d%d", &num1, &num2)== 1)
+                    if (scanf("%d%d", &num1, &num2)== 2)
                     {
                     multiplication(num1, num2);
                     }else
@@ -77,7 +77,7 @@ int main()
                 case '/':
                 {
                     printf("Enter a math calculation:");
-                    if (scanf("%d%d", &num1, &num2)== 1)
+                    if (scanf("%d%d", &num1, &num2)== 2)
                     {
                     division(num1, num2);
                     }else
@@ -104,7 +104,7 @@ int main()
                 case '^':
                 {
                     printf("Enter a math calculation:");
-                    if (scanf("%d%d", &num1, &num2) == 1)
+                    if (scanf("%d%d", &num1, &num2) == 2)
                     {
                         Expo(num1, num2);
                     }
@@ -140,7 +140,7 @@ int main()
             }
         }else
         {
-            printf("This is not r or c!");
+            printf("This is not r or c!\n");
         }
     }
 }
