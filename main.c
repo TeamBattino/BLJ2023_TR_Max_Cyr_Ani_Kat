@@ -24,6 +24,8 @@ int main()
             {
                 int num1 = 0;
                 int num2 = 0;
+                int num3 = 0;
+
                 char operation = '\0';
                 // int option = 0;
 
@@ -34,7 +36,7 @@ int main()
                 {
                 case '+':
                 {
-                    add(num1, num2);
+                    add(num1, num2, num3);
                 }
                 break;
 
@@ -62,11 +64,11 @@ int main()
                 }
                 break;
 
-                    /*case '~':
-                    {
-                        squareroot();
-                    }
-                    break;*/
+                case '~':
+                {
+                    squareroot();
+                }
+                break;
 
                 case '7':
                 {
