@@ -4,64 +4,76 @@
 
 int PaperStoneSissors()
 {
-    int playerguess = 0;
-    srand(time(NULL));
-    int randomnumber = (rand() % (3 - 1 + 1)) + 1;
+    char playrps = 'y';
+    while (playrps == 'y')
+    {
+        int playerguess = 0;
+        srand(time(NULL));
+        int randomnumber = (rand() % (3 - 1 + 1)) + 1;
 
-    printf("%d", randomnumber);
-    scanf("%d", &playerguess);
+        printf("\e[33mRock Paper Sissors\e[0m\n\nEnter your Guess!\n<1> Sissor\n<2> Rock\n<3> Paper\n");
+        scanf("%d", &playerguess);
 
-    if (randomnumber == playerguess && playerguess == 1)
-    {
-        if (randomnumber == 1)
+        if (playerguess == 1)
         {
-            printf("Gleichstand\n");
+            if (randomnumber == 1)
+            {
+                printf("\e[30mTie!\e[0m\n");
+            }
+            else if (randomnumber == 2)
+            {
+                printf("\e[31mYou Lose!\e[0m\n");
+            }
+            else if (randomnumber == 3)
+            {
+                printf("\e[32mYou Win!\e[0m\n");
+            }
         }
-        else if (randomnumber == 2)
+        else if (playerguess == 2)
         {
-            printf("Du verlierst!\n");
+            if (randomnumber == 1)
+            {
+                printf("\e[32mYou Win!\e[0m\n");
+            }
+            else if (randomnumber == 2)
+            {
+                printf("\e[30mTie!\e[0m\n");
+            }
+            else if (randomnumber == 3)
+            {
+                printf("\e[31mYou Lose!\e[0m\n");
+            }
         }
-        else if (randomnumber == 3)
+        else if (playerguess == 3)
         {
-            printf("Du gewinnst!\n");
+            if (randomnumber == 1)
+            {
+                printf("\e[31mYou Lose!\e[0m\n");
+            }
+            else if (randomnumber == 2)
+            {
+                printf("\e[32mYou Win!\e[0m\n");
+            }
+            else if (randomnumber == 3)
+            {
+                printf("\e[30mTie!\e[0m\n");
+            }
         }
-    }
-    else if (playerguess == 2)
-    {
-        if (randomnumber == 1)
+        else
         {
-            printf("Du gewinnst!\n");
+            printf("\e[31mError!\e[0m\n");
         }
-        else if (randomnumber == 2)
-        {
-            printf("Gleichstand\n");
-        }
-        else if (randomnumber == 3)
-        {
-            printf("Du verlierst!\n");
-        }
-    }
-    else if (playerguess == 3)
-    {
-        if (randomnumber == 1)
-        {
-            printf("Du verlierst!\n");
-        }
-        else if (randomnumber == 2)
-        {
-            printf("Du Gewinnst!\n");
-        }
-        else if (randomnumber == 3)
-        {
-            printf("Gleichstand\n");
-        }
-    }
-    else
-    {
-        printf("Error\n");
+
+        printf("Do you want to play again? (y/n)\n");
+        scanf(" %c", &playrps);
     }
 }
 
+int add(int num1, int num2)
+{
+    int add = num1 + num2;
+    printf("%d\n", add);
+}
 
 int subtract(int num1, int num2)
 {
@@ -75,15 +87,60 @@ int multiplication(int num1, int num2)
     printf("%d\n", multiplication);
 }
 
+int division(int num1, int num2)
+{
+    int division = num1 / num2;
+    printf("%d\n", division);
+}
+
+int squareroot()
+{
+
+    double square_root(double number)
+    {
+        double guess = number / 2.0;
+        double error = 0.00001;
+
+        while (guess * guess - number > error)
+        {
+            guess = (guess + number / guess) / 2.0;
+        }
+
+        return guess;
+    }
+    printf("%d\n", squareroot);
+}
+
 int Expo(int base, int expo)
 {
-      int result = 1;
-    while (expo > 0) {
-        if (expo % 2 == 1) {
+    int result = 1;
+    while (expo > 0)
+    {
+        if (expo % 2 == 1)
+        {
             result *= base;
         } 
         base *= base;
         expo /= 2;
     }
     return result;
+    printf("%d\n", result);
+}
+
+int factorial(int number)
+{
+    int fact = 1;
+
+    if (number < 0)
+        printf("Fehler! Fakultät von negativen Zahlen existiert nicht.");
+    else
+    {
+        for (int i = 1; i <= number; ++i)
+        {
+            fact *= i;
+        }
+    }
+
+    return fact;
+    printf("%d\n", factorial);
 }
