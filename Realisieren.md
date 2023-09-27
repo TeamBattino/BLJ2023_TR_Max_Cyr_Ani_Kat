@@ -72,5 +72,8 @@ Ich habe den Code auch so geschrieben das man ihn gut ins Main einbauen kann.
 
 ____________
 ### Katarina
-Mir wurden das Addieren, die Wurzel und die Fakultät als Operatoren zugewiesen. Ich fing zuerst mit dem Addieren an, das es der einfachste Operator zum coden war. Hier wird eine ganz einfache addition mit dem '+' Symbol durchgeführt.
+Mir wurden das Addieren, die Wurzel und die Fakultät als Operatoren zugewiesen. 
+
+**Addieren**
+Ich fing zuerst mit dem Addieren an, das es der einfachste Operator zum coden war. Hier wird eine ganz einfache addition mit dem '+' Symbol durchgeführt.
 ________________
