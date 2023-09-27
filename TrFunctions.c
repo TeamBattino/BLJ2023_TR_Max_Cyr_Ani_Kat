@@ -63,7 +63,6 @@ int PaperStoneScissors()
         {
             printf("\e[31mError!\e[0m\n");
         }
-
         printf("Do you want to play again? (y/n)\n");
         scanf(" %c", &playrps);
     }
