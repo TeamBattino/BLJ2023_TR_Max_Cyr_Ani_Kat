@@ -112,37 +112,6 @@ Ich habe mit dem Coden der einen hälfte der Operatoren begonnen, da wir die Ope
 Wir haben uns geeinigt das ich die Operatoren Minus, Mal und Exponente übernehme und Katraina die anderen drei. Ich brauchte am anfang etwas Hilfe die ich auch von meinen Gruppenmitgliedern erhielt.
 Ich habe den Code auch so geschrieben das man ihn gut ins Main einbauen kann.
 
-So sieht mein Code aus:
-
-int subtract(int num1, int num2)
-{
-    int subtract = num1 - num2;
-    printf("%d\n", subtract);
-}
-
-int multiplication(int num1, int num2)
-{
-    int multiplication = num1 * num2;
-    printf("%d\n", multiplication);
-}
-int Expo(int base, int expo)
-{
-    int result = 1;
-    while (expo > 0)
-    {
-        if (expo % 2 == 1)
-        {
-            result *= base;
-        }
-        base *= base;
-        expo /= 2;
-    }
-    printf("%d\n", result);
-}
-
-
-
-
 ____________
 ### Katarina
 ________________
