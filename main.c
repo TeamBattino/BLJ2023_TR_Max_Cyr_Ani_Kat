@@ -92,7 +92,7 @@ int main()
 
                 default:
                 {
-                    printf("Enter a valid operation next time!");
+                    printf("Enter a valid operation next time!\n");
                     break;
                 }
                 }
