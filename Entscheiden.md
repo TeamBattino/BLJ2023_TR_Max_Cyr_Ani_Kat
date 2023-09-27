@@ -7,6 +7,6 @@ Wir hatten zwei Grosse Entscheidungen, die wir bewältigen mussten.
 3. Besprochen wer was macht und zugeteilt
 
 - ### Additional task auswählen
-4. Alle Tasks angeschaut
-5. Abstimmung gemacht
-6. Einstimmig Schere, Stein, Papier ausgewählt
+1. Alle Tasks angeschaut
+2. Abstimmung gemacht
+3. Einstimmig Schere, Stein, Papier ausgewählt

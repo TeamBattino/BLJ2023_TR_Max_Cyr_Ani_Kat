@@ -19,17 +19,17 @@ Für das habe ich zuerst eine neue Funktion erstellt die man dan einfach in das 
 
 Dannach habe ich überlegt wie ich Schere, Stein, Papier coden kann. Ich bin mit dem System aufgekommen das ich jeder Aktion eine Zahl gebe und diese dann mit einer vom Computer generierten Zahl vergleiche.
 
-1 = Schere
-2 = Stein
-3 = Papier
+1 = Schere  
+2 = Stein  
+3 = Papier  
 
-1 < 2 -> Schere - Stein
-1 < 3 -> Schere - Papier
-1 = 1 -> Schere - Schere
-2 < 3 -> Stein - Papier
-2 = 2 -> Stein -Stein
-3 < 1 -> Papier - Schere
-3 = 3 -> Papier - Papier
+1 < 2 -> Schere - Stein  
+1 < 3 -> Schere - Papier  
+1 = 1 -> Schere - Schere  
+2 < 3 -> Stein - Papier  
+2 = 2 -> Stein -Stein   
+3 < 1 -> Papier - Schere  
+3 = 3 -> Papier - Papier  
 
 Doch als ich das am coden war habe ich gemerkt dass es nicht funktioniert, nur schon weil 3 < 1 nicht funktionieren kann.
 
