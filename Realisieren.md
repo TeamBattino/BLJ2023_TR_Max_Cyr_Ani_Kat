@@ -42,6 +42,10 @@ ______
 
 __________
 ### Anik
+Ich habe mit dem Coden der einen hälfte der Operatoren begonnen, da wir die Operatoren auf Katarina und mich augeteilt haben.
+Wir haben uns geeinigt das ich die Operatoren Minus, Mal und Exponente übernehme und Katraina die anderen drei. Ich brauchte am anfang etwas Hilfe die ich auch von meinen Gruppenmitgliedern erhielt.
+Ich habe den Code auch so geschrieben das man ihn gut ins Main einbauen kann.
+
 ____________
 ### Katarina
 ________________
