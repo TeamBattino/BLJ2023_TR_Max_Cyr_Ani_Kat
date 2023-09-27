@@ -1,5 +1,6 @@
 # Entscheiden
 
-Wir hatten 3 Grosse entscheidungenFunktionen entschieden
-Tasks an Mitglieder verteilen
-Additional task auswählen
+Wir hatten 3 Grosse Entscheidungen, die wir bewältigen mussten.
+
+- Tasks an Mitglieder verteilen
+- Additional task auswählen
