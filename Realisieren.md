@@ -76,4 +76,8 @@ Mir wurden das Addieren, die Wurzel und die Fakultät als Operatoren zugewiesen.
 
 **Addieren**
 Ich fing zuerst mit dem Addieren an, das es der einfachste Operator zum coden war. Hier wird eine ganz einfache addition mit dem '+' Symbol durchgeführt.
+
+**Wurzel**
+
+**Fakultät**
 ________________
