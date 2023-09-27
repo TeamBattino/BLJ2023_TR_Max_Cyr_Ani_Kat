@@ -69,10 +69,12 @@ int PaperStoneSissors()
     }
 }
 
-int add(int num1, int num2)
+int add(int num1, int num2, int num3)
 {
-    int add = num1 + num2;
+    int add = num1 + num2 + num3;
     printf("%d\n", add);
+
+    return add;
 }
 
 int subtract(int num1, int num2)
@@ -87,10 +89,17 @@ int multiplication(int num1, int num2)
     printf("%d\n", multiplication);
 }
 
-int division(int num1, int num2)
+float division(int num1, int num2)
 {
-    int division = num1 / num2;
-    printf("%d\n", division);
+    if (num2 == 0)
+    {
+        printf("It's not possible to divide by 0!\n");
+    }
+    else
+    {
+        float division =  (float) num1 / num2;
+        printf("%.3f\n", division);
+    }
 }
 
 
@@ -128,7 +137,7 @@ int factorial(int number)
     int fact = 1;
 
     if (number < 0)
-        printf("Fehler! Fakultät von negativen Zahlen existiert nicht.");
+        printf("Error! Factorial of negative numbers does not exist.");
     else
     {
         for (int i = 1; i <= number; ++i)

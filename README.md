@@ -13,10 +13,10 @@ Funktionen:
 - Schere, Stein, Papier
 ### Documentation
 
-1. [Inform](Inform.md)
-2. [Plan](Plan.md)
-3. [Decide](Decide.md)
-4. [Realization](Realise.md)
-5. [Control](Control.md)
-6. [Assess](Assess.md)
+1. [Informieren](Informieren.md)
+2. [Planen](Planen.md)
+3. [Entscheiden](Entscheiden.md)
+4. [Realization](Realisieren.md)
+5. [Kontrollieren](Kontrollieren.md)
+6. [Auswerten](Auswerten.md)
 
