@@ -33,12 +33,13 @@ int main()
                 fflush(stdin);
 
                 scanf(" %c", &operation);
-                printf("Enter a math calculation:");
+                
 
                 switch (operation)
                 {
                 case '+':
                 {
+                    printf("Enter a math calculation:");
                     scanf("%d%d", &num1, &num2);
                     add(num1, num2);
                 }
@@ -46,6 +47,7 @@ int main()
 
                 case '-':
                 {
+                    printf("Enter a math calculation:");
                     scanf("%d%d", &num1, &num2);
                     subtract(num1, num2);
                 }
@@ -53,6 +55,7 @@ int main()
 
                 case '*':
                 {
+                    printf("Enter a math calculation:");
                     scanf("%d%d", &num1, &num2);
                     multiplication(num1, num2);
                 }
@@ -60,6 +63,7 @@ int main()
 
                 case '/':
                 {
+                    printf("Enter a math calculation:");
                     scanf("%d%d", &num1, &num2);
                     division(num1, num2);
                 }
@@ -67,6 +71,7 @@ int main()
 
                 case '~':
                 {
+                    printf("Enter a math calculation:");
                     scanf("%d", &num1);
                     squareroot(num1);
                 }
@@ -74,6 +79,7 @@ int main()
 
                 case '^':
                 {
+                    printf("Enter a math calculation:");
                     scanf("%d%d", &num1, &num2);
                     Expo(num1, num2);
                 }
@@ -81,6 +87,7 @@ int main()
 
                 case '|':
                 {
+                    printf("Enter a math calculation:");
                     scanf("%d", &num1);
                     factorial(num1);
                 }
