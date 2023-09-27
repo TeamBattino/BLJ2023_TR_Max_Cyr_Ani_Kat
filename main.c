@@ -30,53 +30,66 @@ int main()
                 char operation = '\0';
                 // int option = 0;
 
+                printf("Enter a valid operation:");
+
+                fflush(stdin);
+
+                scanf("%c", &operation);
+
                 printf("Enter a math calculation:");
-                //scanf("%d%c%d", &num1, &operation, &num2);
+                // scanf("%d%c%d", &num1, &operation, &num2);
 
-                scanf("%c%d", &operation, &num1);
-
-                switch (operation)
+                                switch (operation)
                 {
                 case '+':
                 {
+                    scanf("%d%d", &num1, &num2);
                     add(num1, num2);
                 }
                 break;
 
                 case '-':
                 {
+                    scanf("%d%d", &num1, &num2);
                     subtract(num1, num2);
                 }
                 break;
 
                 case '*':
                 {
+                    scanf("%d%d", &num1, &num2);
                     multiplication(num1, num2);
                 }
                 break;
 
                 case '/':
                 {
+                    scanf("%d%d", &num1, &num2);
                     division(num1, num2);
                 }
                 break;
 
-                case 'r':
+                case '~':
                 {
+                    scanf("%d", &num1);
                     squareroot(num1);
                 }
                 break;
 
                 case '^':
                 {
+                    scanf("%d", &num1, &num2);
                     Expo(num1, num2);
                 }
                 break;
 
-                case 'f':
+                case '|':
                 {
+                    scanf("%d", &num1);
                     factorial(num1);
                 }
+                break;
+
                 default:
                 {
                     printf("Enter a valid operation next time!");

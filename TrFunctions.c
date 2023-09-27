@@ -81,12 +81,16 @@ int subtract(int num1, int num2)
 {
     int subtract = num1 - num2;
     printf("%d\n", subtract);
+
+    return subtract;
 }
 
 int multiplication(int num1, int num2)
 {
     int multiplication = num1 * num2;
     printf("%d\n", multiplication);
+
+    return multiplication;
 }
 
 float division(int num1, int num2)
@@ -100,19 +104,20 @@ float division(int num1, int num2)
         float division = (float)num1 / num2;
         printf("%.3f\n", division);
     }
-}
 
+    
+}
 
 double squareroot(int num1)
 {
-     double guess = num1 / 2.0;
-     double error = 0.00001;
+    double guess = num1 / 2.0;
+    double error = 0.00001;
 
     while (guess * guess - (double)num1 > error)
-     {
+    {
         guess = (guess + (double)num1 / guess) / 2.0;
-     }
-    
+    }
+
     printf("%lf\n", guess);
 }
 
@@ -129,6 +134,8 @@ int Expo(int base, int expo)
         expo /= 2;
     }
     printf("%d\n", result);
+
+    return result;
 }
 
 int factorial(int number)
@@ -145,6 +152,5 @@ int factorial(int number)
         }
     }
 
-    return fact;
-    printf("%d\n", factorial);
+    printf("%d\n", fact);
 }
