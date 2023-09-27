@@ -114,85 +114,8 @@ Ich habe den Code auch so geschrieben das man ihn gut ins Main einbauen kann.
 
 So sieht der Code von Katarina und mir aus:
 
-int add(int num1, int num2)
-{
-    int add = num1 + num2;
-    printf("%d\n", add);
-
-    return add;
-}
-
-int subtract(int num1, int num2)
-{
-    int subtract = num1 - num2;
-    printf("%d\n", subtract);
-}
-
-int multiplication(int num1, int num2)
-{
-    int multiplication = num1 * num2;
-    printf("%d\n", multiplication);
-}
-
-float division(int num1, int num2)
-{
-    if (num2 == 0)
-    {
-        printf("It's not possible to divide by 0!\n");
-    }
-    else
-    {
-        float division = (float)num1 / num2;
-        printf("%.3f\n", division);
-    }
-}
 
 
-double squareroot(int num1)
-{
-     double guess = num1 / 2.0;
-     double error = 0.00001;
-
-    while (guess * guess - (double)num1 > error)
-     {
-        guess = (guess + (double)num1 / guess) / 2.0;
-     }
-    
-    printf("%lf\n", guess);
-}
-
-int Expo(int base, int expo)
-{
-    int result = 1;
-    while (expo > 0)
-    {
-        if (expo % 2 == 1)
-        {
-            result *= base;
-        }
-        base *= base;
-        expo /= 2;
-    }
-    printf("%d\n", result);
-}
-
-int factorial(int number)
-{
-    int fact = 1;
-
-    if (number < 0)
-        printf("Error! Factorial of negative numbers does not exist.");
-    else
-    {
-        for (int i = 1; i <= number; ++i)
-        {
-            fact *= i;
-        }
-    }
-
-    return fact;
-    printf("%d\n", factorial);
-}
 
 ____________
 ### Katarina
