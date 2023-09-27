@@ -35,73 +35,7 @@ Doch als ich das am coden war habe ich gemerkt dass es nicht funktioniert, nur s
 
 Also habe ich mir etwas anderes überlegt und mit dem herausgekommen:
 
-```c
-int PaperStoneSissors()
-{
-    char playrps = 'y';
-    while (playrps == 'y')
-    {
-        int playerguess = 0;
-        srand(time(NULL));
-        int randomnumber = (rand() % (3 - 1 + 1)) + 1;
-        printf("\e[33mRock Paper Sissors\e[0m\n\nEnter your Guess!\n<1> Sissor\n<2> Rock\n<3> Paper\n");
-        scanf("%d", &playerguess);
-        if (playerguess == 1)
-        {
-            if (randomnumber == 1)
-            {
-                printf("\e[30mTie!\e[0m\n");
-            }
-            else if (randomnumber == 2)
-            {
-                printf("\e[31mYou Lose!\e[0m\n");
-            }
-            else if (randomnumber == 3)
-            {
-                printf("\e[32mYou Win!\e[0m\n");
-            }
-        }
-        else if (playerguess == 2)
-        {
-            if (randomnumber == 1)
-            {
-                printf("\e[32mYou Win!\e[0m\n");
-            }
-            else if (randomnumber == 2)
-            {
-                printf("\e[30mTie!\e[0m\n");
-            }
-            else if (randomnumber == 3)
-            {
-                printf("\e[31mYou Lose!\e[0m\n");
-            }
-        }
-        else if (playerguess == 3)
-        {
-            if (randomnumber == 1)
-            {
-                printf("\e[31mYou Lose!\e[0m\n");
-            }
-            else if (randomnumber == 2)
-            {
-                printf("\e[32mYou Win!\e[0m\n");
-            }
-            else if (randomnumber == 3)
-            {
-                printf("\e[30mTie!\e[0m\n");
-            }
-        }
-        else
-        {
-            printf("\e[31mError!\e[0m\n");
-        }
-        printf("Do you want to play again? (y/n)\n");
-
-        scanf(" %c", &playrps);
-    }
-
-}
-```
+Ich habe es so gemacht dass zuerst mit if else überprüft wird was der Spieler geraten hat. Davor wird natürlich eine zufälige Zahl von 1-3 generiert, um dem Computer entweder Schere, Stein oder Papier zugewiesen. Und nach dem wir noch auch mit if else überprüft was der Computer für eine Zahl hat. Aus der Kombination von deiner und der Zahl von dem Computer wird dann das Ergebniss herausgefunden und ausgegeben.
 
 ______
 ### Max
