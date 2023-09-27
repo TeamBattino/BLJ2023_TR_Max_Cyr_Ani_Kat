@@ -97,7 +97,7 @@ float division(int num1, int num2)
     }
     else
     {
-        float division =  (float) num1 / num2;
+        float division = (float)num1 / num2;
         printf("%.3f\n", division);
     }
 }
@@ -128,11 +128,10 @@ int Expo(int base, int expo)
         if (expo % 2 == 1)
         {
             result *= base;
-        } 
+        }
         base *= base;
         expo /= 2;
     }
-    return result;
     printf("%d\n", result);
 }
 
