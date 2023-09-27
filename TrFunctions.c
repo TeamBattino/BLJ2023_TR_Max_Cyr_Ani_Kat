@@ -119,7 +119,7 @@ int Expo(int base, int expo)
         if (expo % 2 == 1)
         {
             result *= base;
-        }
+        } 
         base *= base;
         expo /= 2;
     }
