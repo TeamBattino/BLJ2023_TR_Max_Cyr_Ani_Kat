@@ -10,7 +10,9 @@ Hier ist ein Überblick, wer wann was gemacht hat.
 |Katarina|Ein Teil der Tasklist & Zeitaufteilung erstellt|Summieren, Wurzel, Fakultät erledigt|Fehler behoben, Wurzel überarbeited||
 |Max|Flussdiagramm + Tasklist erledigt|Main, Dividieren gecodet|Fehler behoben, Main verbessert||
 
+_______
 ### Cyrill
+
 Ich habe mit der Zusatzaufgabe Schere, Stein, Papier angefangen, da wir sicher eine Zusatzaufgabe brauchen und wir uns für diese entschieden haben. 
 
 Für das habe ich zuerst eine neue Funktion erstellt die man dan einfach in das Main einbauen kann.
@@ -101,4 +103,11 @@ int PaperStoneSissors()
 }
 ```
 
+______
 ### Max
+
+__________
+### Anik
+____________
+### Katarina
+________________

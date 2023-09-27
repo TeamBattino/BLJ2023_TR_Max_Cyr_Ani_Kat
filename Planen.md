@@ -8,23 +8,24 @@ Zuerst haben wir uns in der Gruppe nochmal aufgeteilt, in zweier Teams.
 -> Die andere hat eine Gruppe Tasklist/Zeitplan erstellen. In der Taskliste sieht man was alles gemacht werden muss und im Zeitplan wan was gemacht werden soll.
 
 ##### Tasklist
-- GitHub Repository erstellen & Collaborators einladen 
-- Nach jedem Bearbeiten code commiten & pushen
-- Zeitaufteilung und Tasklist erstellen 
-- Zeitaufteilung 
-- Personen einteilen 
-- Tasks aufteilen + Personen richtig zuteilen 
-- Wann was ungefähr fertig sein soll 
-- Entscheidung wann man wie fortfahren soll -> Wann mit Code anfangen, wann bestimmter Teil fertig ist, etc. 
-- IPERKA dokumentieren 
-- Fortlaufend bearbeiten 
-- Arbeitsaufteilung 
-- Seine eigene Arbeit dokumentieren     
-- Beispiele/Tutorials im Internet suchen
-
+- [x] GitHub Repository erstellen & Collaborators einladen 
+- [x] Nach jedem Bearbeiten code commiten & pushen
+- [x] Zeitaufteilung und Tasklist erstellen 
+- [x] Zeitaufteilung 
+- [x] Personen einteilen 
+- [ ] Tasks aufteilen + Personen richtig zuteilen 
+- [ ] Wann was ungefähr fertig sein soll 
+- [ ] Entscheidung wann man wie fortfahren soll -> Wann mit Code anfangen, wann bestimmter Teil fertig ist, etc. 
+- [ ] IPERKA dokumentieren 
+- [ ] Fortlaufend bearbeiten 
+- [ ] Arbeitsaufteilung 
+- [ ] Seine eigene Arbeit dokumentieren     
+- [ ] Beispiele/Tutorials im Internet suchen
+_______________
 Dannach haben wir das alles besprochen, fehlendes hinzugefügt und die Aufgabenteilung gemacht.
-![TrTasks](https://github.com/WeberCyrill/BLJ2023_TR_Max_Cyr_Ani_Kat/blob/main/Bilder/TrTasksf.png)
 
+![TrTasks](https://github.com/WeberCyrill/BLJ2023_TR_Max_Cyr_Ani_Kat/blob/main/Bilder/TrTasksf.png)
+_______________
 Katarina:
 	Summieren
 	Wurzeln
