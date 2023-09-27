@@ -102,22 +102,18 @@ float division(int num1, int num2)
     }
 }
 
-int squareroot()
+
+double squareroot(double num1)
 {
+     double guess = num1 / 2.0;
+     double error = 0.00001;
 
-    double square_root(double number)
-    {
-        double guess = number / 2.0;
-        double error = 0.00001;
-
-        while (guess * guess - number > error)
-        {
-            guess = (guess + number / guess) / 2.0;
-        }
-
-        return guess;
-    }
-    printf("%d\n", squareroot);
+    while (guess * guess - num1 > error)
+     {
+        guess = (guess + num1 / guess) / 2.0;
+     }
+    
+    printf("%lf\n", guess);
 }
 
 int Expo(int base, int expo)
