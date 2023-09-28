@@ -1,6 +1,6 @@
 # Auswerten
 ## Cyrill
-Ich finde wir haben die Aufgabe gut gemeistert. Wie wir schon von anfang an erwartet haben, haben wir mehr Zeit gebraucht als eingeplant. Da wir das aber schon am Anfan erwerted hatten, haben wir den Mittwoch frei gelassen, als sogennante Pufferzone. Ich finde es ist auch gut gelaufen, ausser kleineren Fehlern und das wir nicht mehrere Operatoren einführen konnten. Aber ich bin zufrieden mit dem Endergebniss. Ich finde auch das die Gruppenarbeit gut funktioniert hat und auch die Kommunikation.
+Ich finde wir haben die Aufgabe gut gemeistert. Wie wir schon von Anfang an erwartet haben, haben wir mehr Zeit gebraucht als eingeplant. Da wir das aber schon am Anfang erwartet hatten, haben wir den Mittwoch frei gelassen, als sogenannte Pufferzone. Ich finde es ist auch gut gelaufen, ausser kleineren Fehlern und das wir nicht mehrere Operatoren einführen konnten. Aber ich bin zufrieden mit dem Endergebnis. Ich finde auch das die Gruppenarbeit gut funktioniert hat und auch unsere Kommunikation.
 ## Max
 Das Gruppenprojekt finde ich ist uns sehr gut gelungen. Ich konnte mich sehr gut zurecht finden und meine Arbeiten rechtzeitig abschliessen. Der Zeitplan den wir in der Gruppe erstellt haben, hat mir nicht sehr geholfen, ich habe mich einfach darauf geachtet, dass ich meine Tasks rechtzeitig beende und dass ich genug schnell arbeite damit meine Gruppenmitglieder nicht auf mich abhängig sind.
 
