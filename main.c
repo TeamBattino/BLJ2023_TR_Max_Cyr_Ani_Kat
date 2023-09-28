@@ -38,7 +38,7 @@ int main()
                 case '+':
                 {
                     printf("Enter a math calculation:");
-                    if (scanf("%d%d", &num1, &num2))
+                    if (scanf("%d%d", &num1, &num2)== 2)
                     {
                     add(num1, num2);
                     }else
