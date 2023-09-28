@@ -1,5 +1,7 @@
 # Kontrollieren
 
+## Testprotokoll
+
 |   |   |   |   |   |   |   |
 |---|---|---|---|---|---|---|
 |Nr.|Test|Eingabe|Erwartetes Ergebnis|Erhaltenes Ergebnis|Status|Überarbeited|
@@ -23,7 +25,27 @@
 |18|Bei Menu Selectscreen zahl eingeben|3|Error Message|Started Calculator|nicht ok|ok|
 |19|Bei Menu Selectscreen ungültiger Buchstaben eingeben|a|Error Message|Started Calculator|nicht ok|ok|
 
+## Definition of Done
 
+- [x] Funktionalität des Programmes ist gegeben und getestet
+- [x] Code ist vollständig kompilierbar ohne Warnings und Errors
+- [x] Include-Files enthalten eine Include-Guard
+- [ ] Code einer Zeile soll nicht länger als 80 Zeichen sein
+- [x] Code Convention gemäss diesem Dokument ist eingehalten, z.B. Struktur mit Klammern, eingerückt mit einheitlich 3-4 Leerschlägen
+- [x] Bezeichner und Dateien folgen der Naming Convention gemäss diesem Dokument z.B. keine Umlaute und Leerschläge
+- [x] Sprechende Namensgebung für Bezeichner (z.B. Variablen, Funktionen. Dateien)
+- [x] Abstand vor und nach Operatoren (Ausnahme: i ++)
+- [x] Redundanz vermeiden, d.h. Codezeilen, die mehrfach gebraucht werden in Funktionen auslagem
+- [x] Kein «Toter Code» (heisst keine nicht verwendete Variablen, unerreichbarer oder auskommentierter Code)
+- [ ] Defensiver Programmierstil, d.h. Vergleiche mit Konstante links, Vergleichswert rechts des Vergleiches
+- [ ] Konstanten wurden sinnvoll angewendet (keine redundanten String-Literals)
+- [x] Alle Variablen sind sinnvoll initialisiert
+- [x] Globale Variablen sind verpönt d.h. sie müssen sehr gut begrünbar sein
+- [x] Kommentare sind prägnant und unverzichtbar, also keine überflüssigen oder trivialen Kommentare
+- [ ] Funktionen sind übersichtlich und eher kurzgefasst max 50 Zeilen
+- [x] Treffende Verwendung von Loops, weshalb while, for, do-while
+- [x] Wenn immer möglich positive Logik verwenden
+- [ ] Fallthrough in switch-Statements müssen kommentiert sein, wenn es nicht offensichtlich ist (z.B. gleiches Verhalten bei ' a' und 'A' wäre offensichtlich)
 
 
 
